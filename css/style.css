@@ -486,9 +486,12 @@ header {
 
 .contato-left {
   width: 35%;
-  background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
-    url(../images/me.jpg);
+  background: linear-gradient(rgba(15, 15, 15, 0.158), rgba(22, 22, 22, 0.507)),
+    url(../images/Me.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: cover;
 }
 
 .contato-right {
